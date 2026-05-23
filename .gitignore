@@ -1,0 +1,27 @@
+# OS / editor
+.DS_Store
+Thumbs.db
+*.swp
+.idea/
+.vscode/
+
+# PHP / Composer
+/vendor/
+composer.lock
+
+# Node (if tooling is added later)
+/node_modules/
+
+# Logs & local config
+*.log
+.env
+.env.*
+
+# WordPress secrets — never commit these
+wp-config.php
+
+# Private docs
+README.private.md
+
+# Build artifacts
+*.zip
